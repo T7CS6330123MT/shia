@@ -1,0 +1,30 @@
+[
+  {
+    "item_type": "Furniture",
+    "item": [
+      "Couch",
+      "Chair",
+      "Table",
+      "Bed"
+    ]
+  },
+  {
+    "item_type": "Food",
+    "item": [
+      "Bread",
+      "Water",
+      "Milk"
+    ]
+  },
+  {
+    "item_type": "Cleaning",
+    "item": [
+      "Mop",
+      "Windex",
+      "Dish soap",
+      "Soap",
+      "Cloth",
+      "Towel"
+    ]
+  }
+]
