@@ -8,11 +8,11 @@ document.addEventListener("readystatechange", function() {
         if(typeof(Storage) !== "undefined") {
 
             // Check if there is a current session running
-            if(!sessionStorage.getItem("currentSession")){
-                sessionStorage.setItem("currentSession", "1");
-            } else {
-                sessionStorage.clear();
-            }
+            // if(!sessionStorage.getItem("currentSession")){
+            //     sessionStorage.setItem("currentSession", "1");
+            // } else {
+            //     sessionStorage.clear();
+            // }
 
         }else {
             // Entering this case means the browser doesn't support session storage
@@ -20,4 +20,18 @@ document.addEventListener("readystatechange", function() {
         }
     }
 
+    // var items = {
+    //     "sugar": {
+    //         "name": "sugar",
+    //         "brand": "Domino",
+    //         "isLow": "1"
+    //     },
+    //     "Rice": {
+    //         "name": "Rice",
+    //         "brand": "Ricesable",
+    //         "isLow": "1"
+    //     }
+    // }
+
 }, false);
+
