@@ -376,3 +376,5 @@ sketch
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,react,node,webstorm,jetbrains
+/.idea/jsLibraryMappings.xml
+/.idea/inspectionProfiles/Project_Default.xml
