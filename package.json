@@ -1,4 +1,9 @@
 {
+  "name": "shia",
+  "type": "module",
+  "compilerOptions": {
+    "module": "nodenext"
+  },
   "dependencies": {
     "bootstrap": "^5.2.3",
     "lowdb": "^5.1.0",
