@@ -5,7 +5,7 @@ document.addEventListener("readystatechange", function() {
     // Initial Page Settings
     if (document.readyState === "complete") {
 
-        if(typeof(Storage) !== "undefined") {
+        if (typeof (Storage) !== "undefined") {
 
             // Check if there is a current session running
             // if(!sessionStorage.getItem("currentSession")){
@@ -14,24 +14,11 @@ document.addEventListener("readystatechange", function() {
             //     sessionStorage.clear();
             // }
 
-        }else {
+        } else {
             // Entering this case means the browser doesn't support session storage
             alert("Your browser does not support web storage...");
         }
     }
-
-    // var items = {
-    //     "sugar": {
-    //         "name": "sugar",
-    //         "brand": "Domino",
-    //         "isLow": "1"
-    //     },
-    //     "Rice": {
-    //         "name": "Rice",
-    //         "brand": "Ricesable",
-    //         "isLow": "1"
-    //     }
-    // }
 
 }, false);
 
