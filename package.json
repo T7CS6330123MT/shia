@@ -1,28 +1,31 @@
 {
-  "name": "shia",
-  "type": "module",
-  "main": "./resources/scripts/index.js",
+  "name": "testshia",
+  "version": "0.1.0",
+  "private": true,
   "description": "Shia is a webapp that allows users to manage their home inventory.",
   "author": {
     "name": "Chris G",
     "email": "chriswgm@bu.edu",
     "url": "https://github.com/gchriswill"
   },
-  "repository": "github:T7CS6330123MT/shia",
-  "homepage": "https://github.com/T7CS6330123MT/shia#readme",
-  "engines": {
-    "node": ">=14.16"
-  },
-  "compilerOptions": {
-    "module": "nodenext"
-  },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "eslint": "^8.34.0",
+    "jest": "^27.5.1",
     "lowdb": "^5.1.0",
-    "react-bootstrap": "^2.7.0"
+    "prettier": "^2.8.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "eslint": "^8.33.0",
+    "eslint": "^8.34.0",
     "eslint-config-semistandard": "^17.0.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
@@ -31,12 +34,32 @@
     "eslint-plugin-react": "^7.32.2"
   },
   "scripts": {
-    "jsdoc": "jsdoc-md",
-    "test": "npm run test:eslint && npm run test:prettier && npm run test:jsdoc && npm run test:api",
-    "test:eslint": "eslint .",
-    "test:prettier": "prettier -c .",
-    "test:jsdoc": "jsdoc-md -c",
-    "test:api": "coverage-node -r hard-rejection/register test/index.mjs",
-    "prepublishOnly": "npm test"
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts eject",
+    "eslint": "eslint .",
+    "prettier": "prettier --check **/*.{js,tsx,css,md}"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "prettier": {
+    "singleQuote": false
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 safari version",
+      "last 1 chrome version",
+      "last 1 firefox version"
+    ]
   }
 }

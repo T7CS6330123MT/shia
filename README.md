@@ -1,95 +1,70 @@
-# Boston University's Metropolitan College  
-## Team-7's Class Project
+# Getting Started with Create React App
 
-### Smart Home Inventory App (a.k.a. "Shia")
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Version](https://img.shields.io/badge/Version-v0.0.0-blue.svg?style=flat)
-![Platform](https://img.shields.io/badge/Platform-WEB-blue.svg?style=flat)
-![Build Status](https://img.shields.io/badge/Status-passing-green.svg?style=flat)
+## Available Scripts
 
-### Overview Video:
+In the project directory, you can run:
 
-**Overview video is coming soon...**  
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Repository:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**Description goes here and comming soon** 
+### `npm test`
 
-The purposes of this repo are:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Providing commit history/changelog of the project, for its evaluation by the team and instructor.
-- Provide versioning control features to the project.
-- Use Github's repository management tools.
-- Host all the source code remotely on Github as the `remote` repository.
-- Host the project website with Github Pages.
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# Project Details:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### _Project Info_:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**Term:** Spring-O1, 2023  
-**Project:** Smart Home Invertory App (a.k.a. "Shia")  
-**Instructor:** Alex Elentukh  
-**Facilitator:** Michael Trimm  
-**Institution:** [Boston University's Metropolitan College](https://www.bu.edu/met/)  
-**Course:** [CS633 - Software Quality, Testing and Security Management](http://www.bu.edu/csmet/academic-programs/courses/cs633/)  
-**Website:** Shia (**Website is currently in the works and coming soon...**)  
-**Github Repository:** [Shia's Repository](https://github.com/gchriswill/shia)
+### `npm run eject`
 
-### _Current Status_:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**[No Release yet](#)**  
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### _IDE Platform_:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- [Webstorm 2022.3.1](https://www.jetbrains.com/webstorm/)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### _CI/CD Platform_:
+## Learn More
 
-- Travis-CI or Github Actions (Comming soon)...
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### _Dependencies_:  
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- Comming soon
+### Code Splitting
 
-### _Deployment Targets_:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- Browser (Chrome, FireFox, Edge, Opera and Safari)
+### Analyzing the Bundle Size
 
-### _Test Devices_:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-**Coming soon**  
+### Making a Progressive Web App
 
-### _Google Drive Location_:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-**Coming soon**
+### Advanced Configuration
 
-The project's technical documents folder includes:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-- Technical Requirements/
-- Resources/
-- Diagrams/
-- Flows/
+### Deployment
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-# User Stories:  
+### `npm run build` fails to minify
 
-- User stories are located in Pivotal tracker [Shia User Sotries](#)
-
-# Feature Set:
-
-| Core          | Support       | Supplemental  |
-| ------------- | ------------- | ------------- |
-|               |               |               |
-|               |               |               |
-|               |               |               |
-|               |               |               |
-
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

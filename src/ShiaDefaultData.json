@@ -1,0 +1,100 @@
+[
+  {
+    "id":1,
+    "userName":"johnsmith",
+    "name":"John",
+    "pwd": "",
+    "session": "active",
+    "inventory" : [
+      {
+        "id": 1,
+        "name": "Tide",
+        "category": "Cleaning",
+        "price": "10.50",
+        "quantity": "2",
+        "threshold": "1"
+      },
+      {
+        "id": 2,
+        "name": "Pinesol",
+        "category": "Cleaning",
+        "price": "5.75",
+        "quantity": "2",
+        "threshold": "1"
+      },
+      {
+        "id": 3,
+        "name": "Eggs",
+        "category": "Food",
+        "price": "6.40",
+        "quantity": "3",
+        "threshold": "1"
+      },
+      {
+        "id": 4,
+        "name": "Downy",
+        "category": "Cleaning",
+        "price": "8.32",
+        "quantity": "3",
+        "threshold": "1"
+      },
+      {
+        "id": 5,
+        "name": "Bread",
+        "category": "Food",
+        "price": "7.14",
+        "quantity": "3",
+        "threshold": "2"
+      }
+    ]
+  },
+  {
+    "id":2,
+    "userName":"pattyferry",
+    "name": "Patty",
+    "pwd": "",
+    "session": "active",
+    "inventory" : [
+      {
+        "id": 1,
+        "name": "Dawn",
+        "category": "Cleaning",
+        "price": "4.15",
+        "quantity": "2",
+        "threshold": "1"
+      },
+      {
+        "id": 2,
+        "name": "Butter",
+        "category": "Food",
+        "price": "3.25",
+        "quantity": "2",
+        "threshold": "1"
+      },
+      {
+        "id": 3,
+        "name": "Clorox",
+        "category": "cleaning",
+        "price": "6.10",
+        "quantity": "3",
+        "threshold": "1"
+      },
+      {
+        "id": 4,
+        "name": "Lysol",
+        "category": "Cleaning",
+        "price": "4.31",
+        "quantity": "3",
+        "threshold": "1"
+      },
+      {
+        "id": 5,
+        "name": "Pepsi",
+        "category": "Food",
+        "price": "5.17",
+        "quantity": "4",
+        "threshold": "2"
+      }
+    ]
+  }
+]
