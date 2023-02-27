@@ -1,16 +1,8 @@
 import React from 'react';
-import ShiaDefaultData from './../ShiaDefaultData.json';
 
-export class InventoryDataParser {
-
-  updateInventoryItem() {}
-  deleteInventoryItem() {}
-
-  getInventoryItems() {
-
-    const demoInventories = ShiaDefaultData.map(item => item["inventory"]);
-
-    return (demoInventories[0].map(item => {
+export class DataParser {
+  parseInventoryData(data) {
+    return (data[0].map(item => {
         return (
           <tr key={item["id"]}>
             <td>{item["id"]}</td>

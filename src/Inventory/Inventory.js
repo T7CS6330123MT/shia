@@ -2,12 +2,14 @@
 // import { ShiaDefaultData } from "./../ShiaDefaultData.json"
 import React from "react";
 import Table from "react-bootstrap/Table";
-import { InventoryDataParser } from "./InventoryDataParser";
+import DatastoreManager from "./DatastoreManager.js"
+import { DataParser } from "./DataParser";
 
 
 export function Inventory() {
 
-  const inventoryDataParser = new InventoryDataParser()
+  const dataParser = new DataParser()
+  const datastoreManager = new DatastoreManager()
 
   return (
     <Table striped bordered hover variant="dark" style={{ width: "65%", marginLeft: "250px"}}>
@@ -22,7 +24,7 @@ export function Inventory() {
       </tr>
       </thead>
       <tbody>
-      {inventoryDataParser.getInventoryItems()}
+      {dataParser.parseInventoryData(datastoreManager.getDemoItems())}
       </tbody>
     </Table>
   );
