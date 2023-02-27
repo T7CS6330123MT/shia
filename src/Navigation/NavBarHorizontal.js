@@ -1,6 +1,6 @@
 import Nav from "react-bootstrap/Nav";
 
-export function ShiaNavBarHorizontal() {
+export function NavBarHorizontal() {
   return (
     <Nav className="justify-content-end" activeKey="/home">
       <Nav.Link className="ShiaNavBarItems" style={{ marginTop: "8px" }} eventKey="item-1">
