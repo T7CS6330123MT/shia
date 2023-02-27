@@ -16,12 +16,16 @@
     "bootstrap-icons": "^1.10.3",
     "eslint": "^8.34.0",
     "jest": "^27.5.1",
+    "localforage": "^1.10.0",
     "lowdb": "^5.1.0",
+    "match-sorter": "^6.3.1",
     "prettier": "^2.8.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "sort-by": "^1.2.0",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
