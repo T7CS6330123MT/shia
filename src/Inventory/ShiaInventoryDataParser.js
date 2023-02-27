@@ -5,7 +5,7 @@ import ShiaDefaultData from './../ShiaDefaultData.json';
 export function ShiaInventoryDataParser(){
 
   const inventories = ShiaDefaultData.map((item) => {
-    return item.inventory;
+    return item["inventory"];
   });
 
   const shiaData=inventories[0].map( (item) => {
