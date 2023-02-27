@@ -1,10 +1,13 @@
 // import Table from 'react-bootstrap/Table';
 // import { ShiaDefaultData } from "./../ShiaDefaultData.json"
-import { ShiaInventoryDataParser } from "./ShiaInventoryDataParser";
-import Table from "react-bootstrap/Table";
 import React from "react";
+import Table from "react-bootstrap/Table";
+import { InventoryDataParser } from "./InventoryDataParser";
 
-export function ShiaInventory() {
+
+export function Inventory() {
+
+  const inventoryDataParser = new InventoryDataParser()
 
   return (
     <Table striped bordered hover variant="dark" style={{ width: "65%", marginLeft: "250px"}}>
@@ -19,7 +22,7 @@ export function ShiaInventory() {
       </tr>
       </thead>
       <tbody>
-      <ShiaInventoryDataParser/>
+      {inventoryDataParser.getInventoryItems()}
       </tbody>
     </Table>
   );
