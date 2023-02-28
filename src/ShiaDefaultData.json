@@ -3,8 +3,9 @@
     "id":1,
     "userName":"johnsmith",
     "name":"John",
+    "email": "johnsmith@email.com",
     "pwd": "",
-    "session": "active",
+    "session": "INACT",
     "inventory" : [
       {
         "id": 1,
@@ -52,8 +53,9 @@
     "id":2,
     "userName":"pattyferry",
     "name": "Patty",
+    "email": "pattyferry@email.com",
     "pwd": "",
-    "session": "active",
+    "session": "ACT",
     "inventory" : [
       {
         "id": 1,
