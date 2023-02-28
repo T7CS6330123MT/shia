@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class DataParser {
+export default class DataParser {
   parseInventoryData(data) {
     return (data[0].map(item => {
         return (
