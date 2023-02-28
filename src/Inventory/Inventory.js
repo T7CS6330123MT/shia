@@ -1,12 +1,10 @@
-// import Table from 'react-bootstrap/Table';
-// import { ShiaDefaultData } from "./../ShiaDefaultData.json"
 import React from "react";
 import Table from "react-bootstrap/Table";
 import DatastoreManager from "./DatastoreManager.js"
-import { DataParser } from "./DataParser";
+import DataParser from "./DataParser.js";
 
 
-export function Inventory() {
+export default function Inventory() {
 
   const dataParser = new DataParser()
   const datastoreManager = new DatastoreManager()
