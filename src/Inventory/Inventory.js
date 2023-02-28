@@ -10,21 +10,23 @@ export default function Inventory() {
   const datastoreManager = new DatastoreManager()
 
   return (
-    <Table striped bordered hover variant="dark" style={{ width: "65%", marginLeft: "250px"}}>
-      <thead>
+    <>
       <h1>Inventory</h1>
-      <tr>
-        <th>id</th>
-        <th>Name</th>
-        <th>Category</th>
-        <th>Price</th>
-        <th>Quantity</th>
-        <th>Threshold</th>
-      </tr>
-      </thead>
-      <tbody>
-      {dataParser.parseInventoryData(datastoreManager.getDemoItems())}
-      </tbody>
-    </Table>
+      <Table striped bordered hover variant="dark" style={{ width: "65%", marginLeft: "250px"}}>
+        <thead>
+        <tr>
+          <th>id</th>
+          <th>Name</th>
+          <th>Category</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Threshold</th>
+        </tr>
+        </thead>
+        <tbody>
+        {dataParser.parseInventoryData(datastoreManager.getDemoItems())}
+        </tbody>
+      </Table>
+    </>
   );
 }

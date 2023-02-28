@@ -10,9 +10,11 @@ export default function Inventory() {
   // const datastoreManager = new DatastoreManager()
 
   return (
+    <>
+      <h1>Notifications</h1>
       <Table striped bordered hover variant="dark" style={{ width: "65%", marginLeft: "250px"}}>
         <thead>
-        <h1>Notifications</h1>
+          <tr></tr>
         </thead>
         <tbody>
         <tr key={0}>
@@ -32,5 +34,6 @@ export default function Inventory() {
         </tr>
         </tbody>
       </Table>
+    </>
   );
 }
