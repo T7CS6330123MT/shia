@@ -1,4 +1,119 @@
-# Getting Started with Create React App
+# Boston University's Metropolitan College
+## Team-7's Class Project
+
+### Smart Home Inventory App (a.k.a. "Shia")
+
+![Version](https://img.shields.io/badge/Version-v0.0.0-blue.svg?style=flat)
+![Platform](https://img.shields.io/badge/Platform-WEB-blue.svg?style=flat)
+![Build Status](https://img.shields.io/badge/Status-passing-green.svg?style=flat)
+
+[//]: # (### Overview Video:)
+
+[//]: # ()
+[//]: # (**Overview video is coming soon...**)
+
+---
+
+## Repository:
+
+[//]: # (**Description goes here and coming soon**)
+
+The purposes of this repo are:
+
+- Providing commit history/changelog of the project, for its evaluation by the team and instructor.
+- Provide versioning control features to the project.
+- Use GitHub's repository management tools.
+- Host all the source code remotely on GitHub as the `remote` repository.
+- Host the project website with GitHub Pages.
+
+---
+
+# Project Details:
+
+### _Project Info_:
+
+**Term:** Spring-O1, 2023  
+**Project:** Smart Home Inventory App (a.k.a. "Shia")  
+**Instructor:** Alex Elentukh  
+**Facilitator:** Michael Trimm  
+**Institution:** [Boston University's Metropolitan College](https://www.bu.edu/met/)  
+**Course:** [CS633 - Software Quality, Testing and Security Management](http://www.bu.edu/csmet/academic-programs/courses/cs633/)  
+**Website:** Shia (**Website is currently in the works and coming soon...**)  
+**Github Repository:** [Shia's Repository](https://github.com/gchriswill/shia)
+
+[//]: # (### _Current Status_:)
+
+[//]: # ()
+[//]: # (**[No Release yet]&#40;#&#41;**)
+
+### _IDE Platform_:
+
+- [Webstorm 2022.3.1](https://www.jetbrains.com/webstorm/)
+
+[//]: # (### _CI/CD Platform_:)
+
+[//]: # ()
+[//]: # (- Travis-CI or Github Actions &#40;Comming soon&#41;...)
+
+[//]: # (### _Dependencies_:)
+
+[//]: # ()
+[//]: # (- Comming soon)
+
+### _Deployment Targets_:
+
+- Browser (Chrome, FireFox, Edge, Opera and Safari)
+
+[//]: # (### _Test Devices_:)
+
+[//]: # ()
+[//]: # (**Coming soon**)
+
+[//]: # ()
+[//]: # (### _Google Drive Location_:)
+
+[//]: # ()
+[//]: # (**Coming soon**)
+
+[//]: # ()
+[//]: # (The project's technical documents folder includes:)
+
+[//]: # ()
+[//]: # (- Technical Requirements/)
+
+[//]: # (- Resources/)
+
+[//]: # (- Diagrams/)
+
+[//]: # (- Flows/)
+
+[//]: # (---)
+
+### _User Stories_:
+
+- User stories are located in Pivotal tracker [Shia User Stories](https://www.pivotaltracker.com/n/projects/2626715)
+
+[//]: # (# Feature Set:)
+
+[//]: # ()
+[//]: # (| Core          | Support       | Supplemental  |)
+
+[//]: # (| ------------- | ------------- | ------------- |)
+
+[//]: # (|               |               |               |)
+
+[//]: # (|               |               |               |)
+
+[//]: # (|               |               |               |)
+
+[//]: # (|               |               |               |)
+
+
+---
+
+
+# Getting Started
+From this point, the following is from Create React App's README
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -35,9 +150,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) right into your project, so you have full control over them. All the commands except `eject` will still work, but they will point to the copied scripts, so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool would be more useful if you could customize it when you are ready for it.
 
 ## Learn More
 
