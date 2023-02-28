@@ -12,6 +12,7 @@ export default function Inventory() {
   return (
     <Table striped bordered hover variant="dark" style={{ width: "65%", marginLeft: "250px"}}>
       <thead>
+      <h1>Inventory</h1>
       <tr>
         <th>id</th>
         <th>Name</th>
