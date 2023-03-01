@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Root from "./routes/root.js";
 import reportWebVitals from "./reportWebVitals.js";
@@ -10,7 +10,7 @@ import Notifications from "./Notifications/Notifications.js"
 
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Root />,
