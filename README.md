@@ -38,7 +38,7 @@ The purposes of this repo are:
 **Facilitator:** Michael Trimm  
 **Institution:** [Boston University's Metropolitan College](https://www.bu.edu/met/)  
 **Course:** [CS633 - Software Quality, Testing and Security Management](http://www.bu.edu/csmet/academic-programs/courses/cs633/)  
-**Website:** Shia (**Website is currently in the works and coming soon...**)  
+**Website:** Shia https://t7cs6330123mt.github.io/shia/  
 **Github Repository:** [Shia's Repository](https://github.com/gchriswill/shia)
 
 [//]: # (### _Current Status_:)
