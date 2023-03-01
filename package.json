@@ -2,6 +2,7 @@
   "name": "testshia",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://t7cs6330123mt.github.io/",
   "description": "Shia is a webapp that allows users to manage their home inventory.",
   "author": {
     "name": "Chris G",
@@ -35,7 +36,8 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.32.2"
+    "eslint-plugin-react": "^7.32.2",
+    "gh-pages": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
@@ -43,7 +45,9 @@
     "test": "react-scripts --openssl-legacy-provider test",
     "eject": "react-scripts eject",
     "eslint": "eslint .",
-    "prettier": "prettier --check **/*.{js,tsx,css,md}"
+    "prettier": "prettier --check **/*.{js,tsx,css,md}",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
