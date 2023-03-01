@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6168ec09.css",
-    "main.js": "/static/js/main.cfdf4644.js",
-    "static/js/787.89df41f7.chunk.js": "/static/js/787.89df41f7.chunk.js",
-    "static/media/shia_app_icon.png": "/static/media/shia_app_icon.0325b71841c5b2169e6e.png",
-    "index.html": "/index.html",
-    "main.6168ec09.css.map": "/static/css/main.6168ec09.css.map",
-    "main.cfdf4644.js.map": "/static/js/main.cfdf4644.js.map",
-    "787.89df41f7.chunk.js.map": "/static/js/787.89df41f7.chunk.js.map"
+    "main.css": "/shia/static/css/main.6168ec09.css",
+    "main.js": "/shia/static/js/main.cde2b693.js",
+    "static/js/787.89df41f7.chunk.js": "/shia/static/js/787.89df41f7.chunk.js",
+    "static/media/shia_app_icon.png": "/shia/static/media/shia_app_icon.0325b71841c5b2169e6e.png",
+    "index.html": "/shia/index.html",
+    "main.6168ec09.css.map": "/shia/static/css/main.6168ec09.css.map",
+    "main.cde2b693.js.map": "/shia/static/js/main.cde2b693.js.map",
+    "787.89df41f7.chunk.js.map": "/shia/static/js/787.89df41f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6168ec09.css",
-    "static/js/main.cfdf4644.js"
+    "static/js/main.cde2b693.js"
   ]
 }
