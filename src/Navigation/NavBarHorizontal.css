@@ -1,3 +1,14 @@
+.NavBarHorizontal {
+    height:48px;
+    margin:0;
+    padding:0;
+}
+
+.NavDropdown {
+    margin: 8px;
+    color: whitesmoke;
+}
+
 .dropdown-toggle::after {
     color: whitesmoke;
     caret-color: whitesmoke;

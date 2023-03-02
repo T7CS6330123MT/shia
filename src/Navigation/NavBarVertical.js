@@ -9,7 +9,7 @@ export function NavBarVertical() {
   return (
     <div className="ShiaNavBarVerticalContainer col-2">
       <NavBarVerticalLogo />
-      <Nav defaultActiveKey="/dashboard" className="flex-column ShiaNavBar h-100" style={{ margin:"0", padding:"0"}}>
+      <Nav defaultActiveKey="/dashboard" className="flex-column ShiaNavBar h-100">
         <NavLink className="ShiaNavBarVerticalLinks" to={"/dashboard"}>Dashboard</NavLink>
         <NavLink className="ShiaNavBarVerticalLinks" to={"/inventory"}>Inventory</NavLink>
         <NavLink className="ShiaNavBarVerticalLinks" to={"/notifications"}>Notifications</NavLink>

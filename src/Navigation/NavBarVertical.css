@@ -1,9 +1,16 @@
 div > .ShiaNavBarVerticalContainer {
     height: 100vh;
 }
+
+.ShiaNavBar {
+    margin: 0;
+    padding: 0;
+}
+
 .ShiaNavBarVerticalLinks {
     color: whitesmoke;
 }
+
 a {
     color: inherit;
     text-decoration: inherit;

@@ -13,8 +13,8 @@ export function NavBarHorizontal() {
 
   return (
     <>
-      <Nav className="justify-content-end" style={{height:"48px", margin:"0", padding:"0"}} activeKey="/home">
-        <NavDropdown title={<ShiaNavBarHorizontalUserIcon />} id="nav-dropdown" menuVariant={"dark"} style={{caretColor:"whitesmoke", margin:"8px", color:"whitesmoke"}}>
+      <Nav className={"justify-content-end NavBarHorizontal"} activeKey="/home">
+        <NavDropdown className={"NavDropdown"} title={<ShiaNavBarHorizontalUserIcon />} menuVariant={"dark"}>
           <NavDropdown.Item eventKey="4.1">Settings</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item eventKey="4.2" onClick={showModal}>LogOut</NavDropdown.Item>

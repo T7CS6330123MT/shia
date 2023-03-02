@@ -6,10 +6,8 @@ import { Outlet } from "react-router-dom";
 import Authentication from "./Authentication/Authentication.js";
 
 export default function App() {
-
-
   return (
-    <div className="container-fluid App bg-dark row" style={{height:"100%", width:"100%"}}>
+    <div className="container-fluid App bg-dark row">
       <Authentication />
       <NavBarHorizontal />
       <div className={"row"} style={{margin:"0", padding:"0"}}>

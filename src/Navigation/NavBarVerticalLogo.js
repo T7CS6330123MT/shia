@@ -1,6 +1,5 @@
 import Figure from 'react-bootstrap/Figure';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './NavBarVerticalLogo.css';
 import shia_app_icon from './shia_app_icon.png';
 
 export function NavBarVerticalLogo() {

@@ -8,8 +8,6 @@ import ErrorPage from "./error-page.js";
 import Inventory from "./Inventory/Inventory.js";
 import Notifications from "./Notifications/Notifications.js"
 
-
-
 const router = createHashRouter([
   {
     path: "/",

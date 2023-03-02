@@ -11,9 +11,9 @@ export default function Inventory() {
 
   return (
     <>
-      <Table bordered hover variant="dark" style={{ width: "65%", margin: "0 auto auto 0", padding:"0"}}>
+      <Table bordered hover variant="dark" style={{width: "65%", margin: "0 auto auto 0", padding:"0"}}>
         <thead>
-        <tr style={{border:"none"}}><th style={{border:"inherit"}}><h1 style={{ display:"inline"}}>Inventory</h1></th></tr>
+        <tr style={{border:"none"}}><th style={{border:"inherit"}}><h1 style={{display:"inline"}}>Inventory</h1></th></tr>
         <tr>
           <th>id</th>
           <th>Name</th>
