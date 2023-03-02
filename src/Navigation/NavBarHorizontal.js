@@ -1,12 +1,26 @@
 import Nav from "react-bootstrap/Nav";
+import { NavDropdown } from "react-bootstrap";
+import LogOut from "./../Authentication/LogOut.js";
+import { useState } from "react";
 
 export function NavBarHorizontal() {
+
+  let [show, setShow] = useState(false);
+
+  const showModal = () => setShow(true);
+  const closeModal = () => setShow(false);
+
   return (
-    <Nav className="justify-content-end" activeKey="/home">
-      <Nav.Link className="ShiaNavBarItems" style={{ marginTop: "8px" }} eventKey="item-1">
-        <ShiaNavBarHorizontalUserIcon/>
-      </Nav.Link>
-    </Nav>
+    <>
+      <Nav className="justify-content-end" style={{height:"48px", margin:"0", padding:"0"}} activeKey="/home">
+        <NavDropdown title={<ShiaNavBarHorizontalUserIcon />} id="nav-dropdown" menuVariant={"dark"} style={{margin:"8px", color:"whitesmoke"}}>
+          <NavDropdown.Item eventKey="4.1">Settings</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item eventKey="4.2" onClick={showModal}>LogOut</NavDropdown.Item>
+        </NavDropdown>
+      </Nav>
+      <LogOut show={show} closeModal={closeModal}/>
+    </>
   );
 }
 
