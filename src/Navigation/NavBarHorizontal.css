@@ -1,0 +1,4 @@
+.dropdown-toggle::after {
+    color: whitesmoke;
+    caret-color: whitesmoke;
+}
