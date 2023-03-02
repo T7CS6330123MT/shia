@@ -4,3 +4,11 @@ div > .ShiaNavBarVerticalContainer {
 .ShiaNavBarVerticalLinks {
     color: whitesmoke;
 }
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: darkgrey;
+}
