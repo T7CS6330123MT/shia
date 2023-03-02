@@ -11,7 +11,7 @@ export default function Inventory() {
 
   return (
     <>
-      <Table striped bordered hover variant="dark" style={{ width: "65%", marginLeft: "250px", marginTop: "-100px"}}>
+      <Table striped bordered hover variant="dark" style={{ width: "65%", margin: "0 auto auto 0", padding:"0"}}>
         <thead>
         <tr style={{border:"none"}}><th style={{border:"none"}}><h1>Notifications</h1></th></tr>
         </thead>
