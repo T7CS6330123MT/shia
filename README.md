@@ -39,8 +39,8 @@ The purposes of this repo are:
 **Institution:** [Boston University's Metropolitan College](https://www.bu.edu/met/)  
 **Course:** [CS633 - Software Quality, Testing and Security Management](http://www.bu.edu/csmet/academic-programs/courses/cs633/)  
 **Website:** [https://t7cs6330123mt.github.io/shia/](https://t7cs6330123mt.github.io/shia/)  
-**Frontend Repository:** `Shia` [https://github.com/T7CS6330123MT/shia](https://github.com/T7CS6330123MT/shia)  
-**Backend Repository:** `Shib` [https://github.com/T7CS6330123MT/shib](https://t7cs6330123mt.github.io/shib/)  
+**Frontend Repository:** `Shia` [https://github.com/T7CS6330123MT/shia](https://github.com/T7CS6330123MT/shia/)  
+**Backend Repository:** `Shib` [https://github.com/T7CS6330123MT/shib](https://github.com/T7CS6330123MT/shib/)  
 
 [//]: # (### _Current Status_:)
 
