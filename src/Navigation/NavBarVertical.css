@@ -1,4 +1,6 @@
-.ShiaNavBarVerticalContainer {}
+div > .ShiaNavBarVerticalContainer {
+    height: 100vh;
+}
 .ShiaNavBarVerticalLinks {
     color: whitesmoke;
 }
