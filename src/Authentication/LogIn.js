@@ -7,11 +7,11 @@ export default function LogIn(props) {
 
   let pwd = ""
   let email = ""
-  let parentClose = props.parentClose
 
   const [show, setShow] = useState(false);
 
   const showModal = () => setShow(true);
+
   const closeModal = () => setShow(false);
 
   const authenticate = () => {
@@ -23,7 +23,7 @@ export default function LogIn(props) {
     closeModal();
 
     // close parent modal
-    parentClose();
+    props.parentClose();
   }
 
   const onChangePwd = (e) => {
