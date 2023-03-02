@@ -1,6 +1,7 @@
 import Nav from "react-bootstrap/Nav";
 import { NavDropdown } from "react-bootstrap";
 import LogOut from "./../Authentication/LogOut.js";
+import "./NavBarHorizontal.css";
 import { useState } from "react";
 
 export function NavBarHorizontal() {
@@ -13,7 +14,7 @@ export function NavBarHorizontal() {
   return (
     <>
       <Nav className="justify-content-end" style={{height:"48px", margin:"0", padding:"0"}} activeKey="/home">
-        <NavDropdown title={<ShiaNavBarHorizontalUserIcon />} id="nav-dropdown" menuVariant={"dark"} style={{margin:"8px", color:"whitesmoke"}}>
+        <NavDropdown title={<ShiaNavBarHorizontalUserIcon />} id="nav-dropdown" menuVariant={"dark"} style={{caretColor:"whitesmoke", margin:"8px", color:"whitesmoke"}}>
           <NavDropdown.Item eventKey="4.1">Settings</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item eventKey="4.2" onClick={showModal}>LogOut</NavDropdown.Item>
