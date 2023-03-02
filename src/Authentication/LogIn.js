@@ -3,50 +3,70 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 
-export default function LogIn() {
+export default function LogIn(props) {
+
+  let pwd = ""
+  let email = ""
+  let parentClose = props.parentClose
 
   const [show, setShow] = useState(false);
 
-  const handleLogIn = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const showModal = () => setShow(true);
+  const closeModal = () => setShow(false);
 
-  return (
-    <>
-      <Button id={"showLogInButton"} variant="primary" onClick={handleShow}>
-        Launch static backdrop modal
-      </Button>
+  const authenticate = () => {
+    // authenticate user
+    // This needs to be changed to a fetch request to the backend
+    sessionStorage.setItem("users", JSON.stringify([{ "email": email, "password": pwd, "loggedIn": true}]))
 
-      <Modal show={show}
-             onHide={handleLogIn}
-             backdrop="static"
-             keyboard={false}>
+    // close modal
+    closeModal();
 
-        <Modal.Header>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Form>
-            <Form.Group className="mb-3"
-                        controlId="shiaFormEmailField">
+    // close parent modal
+    parentClose();
+  }
 
-              <Form.Label>Email address</Form.Label>
-              <Form.Control  type="email"
-                             placeholder="name@example.com"
-                             autoFocus />
+  const onChangePwd = (e) => {
+    pwd = e.target.value
+  }
 
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="shiaFormPasswordField">
-              <Form.Label>Password</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
-            </Form.Group>
-          </Form>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="primary" onClick={handleLogIn}>
-            Login
-          </Button>
-        </Modal.Footer>
-      </Modal>
-    </>
-  );
+  const onChangeEmail = (e) => {
+    email = e.target.value
+  }
+
+ return (
+   <>
+     <Button variant="primary" onClick={showModal}>LogIn</Button>
+     <Modal show={show}
+            backdrop="static"
+            keyboard={false}>
+
+       <Modal.Header>
+         <Modal.Title>LogIn</Modal.Title>
+       </Modal.Header>
+       <Modal.Body>
+         <Form>
+           <Form.Group className="mb-3"
+                       controlId="shiaFormEmailField">
+
+             <Form.Label>Email address</Form.Label>
+             <Form.Control type="email"
+                           placeholder="name@example.com"
+                           autoFocus onChange={onChangeEmail} />
+
+           </Form.Group>
+           <Form.Group className="mb-3" controlId="shiaFormPasswordField">
+             <Form.Label>Password</Form.Label>
+             <Form.Control type="password" placeholder="Password" onChange={onChangePwd}/>
+           </Form.Group>
+         </Form>
+       </Modal.Body>
+       <Modal.Footer>
+         Don't have an account yet? Just go back and select to "SignUp" instead...
+         <Button variant="secondary" onClick={closeModal}>Back</Button>
+         <Button variant="primary" onClick={authenticate}>Login</Button>
+       </Modal.Footer>
+     </Modal>
+   </>
+ );
 }
