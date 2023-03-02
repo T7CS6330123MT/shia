@@ -11,6 +11,7 @@ export default function LogOut(props) {
 
     // close modal
     props.closeModal();
+    window.location.reload();
   }
 
   return (
