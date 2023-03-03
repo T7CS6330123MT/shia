@@ -1,11 +1,11 @@
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./NavBarVertical.css";
-import { NavBarVerticalLogo } from "./NavBarVerticalLogo";
+import { NavBarVerticalLogo } from "./NavBarVerticalLogo.js";
 import { NavLink } from "react-router-dom";
 import React from "react";
 
-export function NavBarVertical() {
+export default function NavBarVertical() {
   return (
     <div className="ShiaNavBarVerticalContainer col-2">
       <NavBarVerticalLogo />

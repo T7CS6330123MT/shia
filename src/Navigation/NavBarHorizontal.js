@@ -1,10 +1,10 @@
+import "./NavBarHorizontal.css";
 import Nav from "react-bootstrap/Nav";
 import { NavDropdown } from "react-bootstrap";
-import LogOut from "./../Authentication/LogOut.js";
-import "./NavBarHorizontal.css";
 import { useState } from "react";
+import LogOut from "./../Authentication/LogOut.js";
 
-export function NavBarHorizontal() {
+export default function NavBarHorizontal() {
 
   let [show, setShow] = useState(false);
 

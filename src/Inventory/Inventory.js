@@ -3,7 +3,6 @@ import Table from "react-bootstrap/Table";
 import DatastoreManager from "./DatastoreManager.js"
 import DataParser from "./DataParser.js";
 
-
 export default function Inventory() {
 
   const dataParser = new DataParser()

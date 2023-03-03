@@ -4,3 +4,8 @@ div .App {
     margin: 0;
     padding: 0;
 }
+
+.App div .row {
+    margin: 0;
+    padding: 0;
+}
