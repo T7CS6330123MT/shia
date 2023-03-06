@@ -44,7 +44,7 @@
         "name": "Bread",
         "category": "Food",
         "price": "7.14",
-        "quantity": "3",
+        "quantity": "0",
         "threshold": "2"
       }
     ]
