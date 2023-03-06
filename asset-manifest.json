@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/shia/static/css/main.13a290d5.css",
-    "main.js": "/shia/static/js/main.e9cac0cc.js",
+    "main.css": "/shia/static/css/main.78d30503.css",
+    "main.js": "/shia/static/js/main.02cd5b11.js",
     "static/js/787.72c70b03.chunk.js": "/shia/static/js/787.72c70b03.chunk.js",
     "static/media/shia_app_icon.png": "/shia/static/media/shia_app_icon.0325b71841c5b2169e6e.png",
+    "static/media/DashboardIcon.svg": "/shia/static/media/DashboardIcon.b1094be3eaa6f8dde8c55acb33468855.svg",
+    "static/media/SummaryIcon.svg": "/shia/static/media/SummaryIcon.72a51e8b21316df29fb8474d2b05f55d.svg",
     "index.html": "/shia/index.html",
-    "main.13a290d5.css.map": "/shia/static/css/main.13a290d5.css.map",
-    "main.e9cac0cc.js.map": "/shia/static/js/main.e9cac0cc.js.map",
+    "static/media/OutstockIcon.svg": "/shia/static/media/OutstockIcon.6ee820d5c4d7bf6bddd41062331d9de8.svg",
+    "static/media/WarningIcon.svg": "/shia/static/media/WarningIcon.3229c4475adb8072e62a770288aa7be6.svg",
+    "static/media/NotificationsIcon.svg": "/shia/static/media/NotificationsIcon.4248d1986249ed3912d2830780eb2856.svg",
+    "static/media/UserIcon.svg": "/shia/static/media/UserIcon.7f5c962b57e6fd8d50c936ba7a123282.svg",
+    "main.78d30503.css.map": "/shia/static/css/main.78d30503.css.map",
+    "main.02cd5b11.js.map": "/shia/static/js/main.02cd5b11.js.map",
     "787.72c70b03.chunk.js.map": "/shia/static/js/787.72c70b03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13a290d5.css",
-    "static/js/main.e9cac0cc.js"
+    "static/css/main.78d30503.css",
+    "static/js/main.02cd5b11.js"
   ]
 }
