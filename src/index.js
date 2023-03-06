@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals.js";
 import ErrorPage from "./error-page.js";
 import Inventory from "./Inventory/Inventory.js";
 import Notifications from "./Notifications/Notifications.js"
+import Dashboard from "./Dashboard/Dashboard.js";
 
 const router = createHashRouter([
   {
@@ -16,7 +17,7 @@ const router = createHashRouter([
     children:[
       {
         path: "/dashboard",
-        element: <div>Dashboard</div>,
+        element: <Dashboard />,
       },
       {
         path: "/inventory",
