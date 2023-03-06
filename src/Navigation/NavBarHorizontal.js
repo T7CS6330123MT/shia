@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import { NavDropdown } from "react-bootstrap";
 import { useState } from "react";
 import LogOut from "./../Authentication/LogOut.js";
+import { ReactComponent as UserIcon} from "./../Assets/UserIcon.svg";
 
 export default function NavBarHorizontal() {
 
@@ -14,7 +15,7 @@ export default function NavBarHorizontal() {
   return (
     <>
       <Nav className={"justify-content-end NavBarHorizontal"} activeKey="/home">
-        <NavDropdown className={"NavDropdown"} title={<ShiaNavBarHorizontalUserIcon />} menuVariant={"dark"}>
+        <NavDropdown className={"NavDropdown"} title={<UserIcon />} menuVariant={"dark"}>
           <NavDropdown.Item eventKey="4.1">Settings</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item eventKey="4.2" onClick={showModal}>LogOut</NavDropdown.Item>
@@ -22,20 +23,5 @@ export default function NavBarHorizontal() {
       </Nav>
       <LogOut show={show} closeModal={closeModal}/>
     </>
-  );
-}
-
-export function ShiaNavBarHorizontalUserIcon() {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg"
-         width="32"
-         height="32"
-         fill="whitesmoke"
-         className="bi bi-person-circle"
-         viewBox="0 0 16 16">
-      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-      <path fillRule="evenodd"
-            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-    </svg>
   );
 }
