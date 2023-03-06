@@ -1,12 +1,12 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
-import DatastoreManager from "./DatastoreManager.js"
-import DataParser from "./DataParser.js";
+import DatabaseManager from "./DatabaseManager.js"
+import InventoryParser from "./InventoryParser.js";
 
 export default function Inventory() {
 
-  const dataParser = new DataParser()
-  const datastoreManager = new DatastoreManager()
+  const parser = new InventoryParser()
+  const dbm = new DatabaseManager()
 
   return (
     <>
@@ -14,7 +14,7 @@ export default function Inventory() {
         <thead>
         <tr style={{border:"none"}}><th style={{border:"inherit"}}><h1 style={{display:"inline"}}>Inventory</h1></th></tr>
         <tr>
-          <th>id</th>
+          <th className={"w-25"}>id</th>
           <th>Name</th>
           <th>Category</th>
           <th>Price</th>
@@ -23,7 +23,7 @@ export default function Inventory() {
         </tr>
         </thead>
         <tbody>
-        {dataParser.parseInventoryData(datastoreManager.getDemoItems())}
+        {parser.parseInventoryData(dbm.getItems())}
         </tbody>
       </Table>
     </>
