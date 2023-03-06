@@ -11,7 +11,7 @@ export default function App() {
     <div className="container-fluid App bg-dark row">
       <Authentication />
       <NavBarHorizontal />
-      <div className={"row"}>
+      <div className={"row h-100"}>
         <NavBarVertical />
         <Outlet />
       </div>
